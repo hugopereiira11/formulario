@@ -4,7 +4,59 @@
     box-sizing: border-box;
 }
 
+#theme {
+    display: none;
+}
+
+.bi {
+    font-size: 1.3em;
+}
+
+.bi-moon {
+    display: none;
+}
+
 .dark {
     background-color: rgb(94, 91, 91);
     color: rgb(230, 222, 222);
+}
+
+.dark .bi-moon {
+    display: block;
+}
+
+.dark .bi-sun {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logout {
+    display: none;
+}
+
+main {
+    margin-top: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.user-logged {
+    display: none;
+}
+
+input {
+    width: 250px;
+    height: 40%;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 30px;
 }
