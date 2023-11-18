@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 5px;
+    transition-duration: 0.8s;
+}
+
 #theme {
     display: none;
 }
@@ -35,8 +40,12 @@ nav {
     justify-content: space-between;
 }
 
-.logout {
+#logout {
     display: none;
+    font-size: 1rem;
+    width: 50px;
+    height: 25px;
+    border: none;
 }
 
 main {
